@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Quicksand&display=swap')
+    
+$border-color: #D1D1D1
+$forms-box-color: #BED7E8
+$forms-title-color: #9C8A70
+$labels-color: #444782
+$input-background: #E1E1E8
+$input-border: #9BA3A8
+$Montserrat: 'Montserrat Alternatives', sans-serif
+$Quicksand: 'Quicksand', sans-serif
+    
+.formulario
+    border: 1px solid $border-color
+    border-radius: 10px
+    background-color: $forms-box-color
+    height: 80%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    .forms-content
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 25px
+        width: 60%
+        h1
+            font-family: $Quicksand
+            font-size: 40px
+            color: $forms-title-color
+            text-align: center
+        h1, .form-group
+            margin-bottom: 20px
+        .form-group
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            width: 100%
+            label
+                display: flex
+                align-self: center
+                margin-bottom: 8px
+                font-family: $Montserrat
+                font-size: 17px
+                color: $labels-color
+            input
+                font-family: $Montserrat
+            .form-control
+                height: 30px
+                width: 75%
+                border-color: $input-border
+                border-radius: 8px
+                background-color: $input-background
+                box-shadow: none
+                outline-style: none
+            .form-check 
+                display: flex
+                flex-direction: row
+                .form-check-label
+                    font-size: 16px
+                    color: black
+                    margin-left: 10px
+        .form-check 
+            font-family: $Montserrat
+            font-size: 20px
+            margin-top: -10px
+            .form-check-input
+                width: 30px
+        .form-check, .btn-primary
+            margin-bottom: 10px
+        .btn-primary
+            margin-top: 20px
+            width: 50% 
+            height: 45px    
+            border-radius: 5px
+            border-color: transparent 
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,.2), inset 0 -2px 0 0 rgba(0,0,0,.2)  
+            color: #FFFFFF
+            font-size: 20px
+            font-family: $Montserrat
+            background-color: $labels-color
+            &:hover
+                box-shadow: none
+        .btn-secondary
+            margin-top: 10px

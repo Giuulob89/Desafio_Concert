@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,YAAY,EAHD,IAAI;CAGe",
+    "sources": [
+        "formulario.component.sass"
+    ],
+    "names": [],
+    "file": "formulario.component.css"
+}
