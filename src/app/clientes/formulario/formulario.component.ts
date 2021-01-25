@@ -23,7 +23,6 @@ export class FormularioComponent implements OnInit {
       tipo: [cliente.tipo],
       genero: [cliente.genero],
       dataNascimento: [cliente.dataNascimento],
-      observacao: [cliente.observacao],
       inativo: [cliente.inativo]
     })
   }

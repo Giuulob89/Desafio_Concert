@@ -1,3 +1,7 @@
+<div class="sidebar">
+    <nav></nav>
+</div>
+
 <form [formGroup]="formCliente" (ngSubmit)="onSubmit()" class="formulario">
     <div class="forms-content">
         <h1>Salvar Cliente</h1>
@@ -31,7 +35,7 @@
 
         <div class="form-group">
             <label for="dataNascimento">Data de nascimento:</label>
-            <input type="date" class="form-control form-date" name="dataNascimento" id="dataNascimento"
+            <input type="date" class="form-control" name="dataNascimento" id="dataNascimento"
                 formControlName="dataNascimento">
         </div>
 
@@ -41,6 +45,5 @@
         </div>
 
         <input type="submit" class="btn btn-primary mt-4" value="Salvar">
-        <a href="#" class="btn btn-secondary mt-4 ml-2">Cancelar</a>
     </div>
 </form>
