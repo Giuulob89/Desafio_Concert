@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Quicksand&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap')
+
+$border-color: gray
+$background-color-barra: #8286B5
+$sidebar-title-color: #FFFFFF
+$Montserrat: 'Montserrat Alternatives', sans-serif
+$Comfortaa: 'Comfortaa', cursive
+
+body
+    background-color: rgba(232, 168, 167, 0.15)
+    nav
+        background-color: $background-color-barra
+        width: 250px
+        height: 100vh
+        position: fixed
+        .sidebar-title
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            background-color: #8286b5
+            background-image: linear-gradient(315deg, #8286b5 0%, #a5a4cb 74%)
+            height: 80px
+            h1
+                font-family: $Montserrat
+                font-size: 30px
+                color: $sidebar-title-color
+        .sidebar-content
+            margin-top: 20px
+            width: 100%
+            a
+                width: 100%
+                padding: 20px
+                text-decoration: none
+                font-family: $Comfortaa
+                font-size: 16px
+                font-weight: bold
+                color: rgba(232, 168, 167)
+                .sidebar-topics
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    height: 60px
+                    background-color: rgba(165, 164, 203, 0.5)
+                    &:hover
+                        background-color: #7573c9
+                        box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 8px
+        .division-bar
+            margin-top: 1.5rem
+            margin-bottom: 1rem
+            border: 0
+            border-top: 1px solid #6d6a6e
+            box-sizing: content-box
+            height: 0
+            overflow: visible
+        .logout
+            display: flex
+            justify-content: center
+            align-items: center
+            a
+                margin-top: 20px
+                font-family: $Comfortaa
+                font-size: 25px
+                color: #FFFFFF
+                text-decoration: none
+                &:hover
+                    color: #5d00ba
+    .formulario-box
+        height: 100vh
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: 250px
+    .formulario
+        width: 0%
