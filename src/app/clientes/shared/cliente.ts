@@ -1,8 +1,8 @@
 export class Cliente {
     nome: string = '';
+    email: string = '';
     tipo: number = 1;
     genero: number = 1;
     dataNascimento: Date = null;
-    observacao: string = '';
     inativo: boolean = false;
 }

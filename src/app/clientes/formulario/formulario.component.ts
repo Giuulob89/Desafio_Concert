@@ -20,6 +20,7 @@ export class FormularioComponent implements OnInit {
   createForm(cliente: Cliente) {
     this.formCliente = this.formBuilder.group({
       nome: [cliente.nome],
+      email: [cliente.email],
       tipo: [cliente.tipo],
       genero: [cliente.genero],
       dataNascimento: [cliente.dataNascimento],

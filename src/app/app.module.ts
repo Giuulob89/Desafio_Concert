@@ -14,7 +14,7 @@ import { FormularioComponent } from './clientes/formulario/formulario.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
